@@ -1,0 +1,111 @@
+## Generate by http://repogen.simplylinux.ch/generate.php  ##
+#############################################################
+################### OFFICIAL UBUNTU REPOS ###################
+#############################################################
+
+###### Ubuntu Main Repos
+deb http://ru.archive.ubuntu.com/ubuntu/ precise main restricted universe 
+deb-src http://ru.archive.ubuntu.com/ubuntu/ precise main restricted universe 
+
+###### Ubuntu Update Repos
+deb http://ru.archive.ubuntu.com/ubuntu/ precise-security main restricted universe 
+deb http://ru.archive.ubuntu.com/ubuntu/ precise-updates main restricted universe 
+deb-src http://ru.archive.ubuntu.com/ubuntu/ precise-security main restricted universe 
+deb-src http://ru.archive.ubuntu.com/ubuntu/ precise-updates main restricted universe 
+
+###### Ubuntu Partner Repo
+deb http://archive.canonical.com/ubuntu precise partner
+deb-src http://archive.canonical.com/ubuntu precise partner
+
+###### Ubuntu Extras Repo
+deb http://extras.ubuntu.com/ubuntu precise main
+deb-src http://extras.ubuntu.com/ubuntu precise main
+
+##############################################################
+##################### UNOFFICIAL  REPOS ######################
+##############################################################
+
+###### 3rd Party Binary Repos
+
+#### Gimp - https://launchpad.net/~otto-kesselgulasch/+archive/gimp
+## Run this command: sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 614C4B38
+deb http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu precise main
+
+#### LibreOffice - http://www.documentfoundation.org/download/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444
+deb http://ppa.launchpad.net/libreoffice/ppa/ubuntu precise main
+
+#### Medibuntu - http://www.medibuntu.org/ 
+## Run this command: sudo apt-get update && sudo apt-get install medibuntu-keyring && sudo apt-get update 
+deb http://packages.medibuntu.org/ precise free non-free 
+
+#### Midori - https://launchpad.net/~midori/+archive/ppa
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A69241F1
+deb http://ppa.launchpad.net/midori/ppa/ubuntu precise main
+
+#### muCommander - http://www.mucommander.com/
+## Run this command: sudo wget -O - http://apt.mucommander.com/apt.key | sudo apt-key add - 
+deb http://apt.mucommander.com stable main non-free contrib  
+
+#### Pidgin - http://pidgin.im
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A1F196A8
+deb http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu precise main
+
+#### PlayOnLinux - http://www.playonlinux.com/en
+## Run this command: wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
+deb http://deb.playonlinux.com/ precise main
+
+#### Ubuntu Tweak - http://ubuntu-tweak.com/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0624A220
+deb http://ppa.launchpad.net/tualatrix/ubuntu precise main
+
+#### VirtualBox - http://www.virtualbox.org
+## Run this command: wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+deb http://download.virtualbox.org/virtualbox/debian precise contrib
+
+#### Wine - https://launchpad.net/~ubuntu-wine/+archive/ppa/
+## Run this command:  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F9CB8DB0
+deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu precise main
+
+#### X Updates - https://launchpad.net/~ubuntu-x-swat/+archive/x-updates/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AF1CDFA9
+deb http://ppa.launchpad.net/ubuntu-x-swat/x-updates/ubuntu precise main
+
+
+####### 3rd Party Source Repos
+
+#### Gimp (Source) - https://launchpad.net/~otto-kesselgulasch/+archive/gimp
+## Run this command: sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 614C4B38
+deb-src http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu precise main
+
+#### LibreOffice (Source) - http://www.documentfoundation.org/download/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1378B444
+deb-src http://ppa.launchpad.net/libreoffice/ppa/ubuntu precise main
+
+#### Medibuntu (Source) - http://www.medibuntu.org/ 
+## Run this command: sudo apt-get update && sudo apt-get install medibuntu-keyring && sudo apt-get update 
+deb-src http://packages.medibuntu.org/ precise free non-free 
+
+#### Midori (Source) - https://launchpad.net/~midori/+archive/ppa
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A69241F1
+deb-src http://ppa.launchpad.net/midori/ppa/ubuntu precise main
+
+#### Pidgin (Source) - http://pidgin.im
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A1F196A8
+deb-src http://ppa.launchpad.net/pidgin-developers/ppa/ubuntu precise main
+
+#### Ubuntu Tweak (Source) - http://ubuntu-tweak.com/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0624A220
+deb-src http://ppa.launchpad.net/tualatrix/ubuntu precise main
+
+#### Wine (Source) - https://launchpad.net/~ubuntu-wine/+archive/ppa/
+## Run this command:  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F9CB8DB0
+deb-src http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu precise main 
+
+#### X Updates (Source) - https://launchpad.net/~ubuntu-x-swat/+archive/x-updates/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AF1CDFA9
+deb-src http://ppa.launchpad.net/ubuntu-x-swat/x-updates/ubuntu precise main
+
+#### Dropbox
+## Run this command: sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+deb http://linux.dropbox.com/ubuntu/ precise main
